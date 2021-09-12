@@ -9,7 +9,7 @@ def handler(event, context):
     """
     Receives a JSON event containing the following data
     event = {
-        'pdf_bytes': base64.b64encode(pdf_bytes).decode()
+        'body': base64.b64encode(pdf_bytes).decode()
     }
     :param event:
     :param context:
